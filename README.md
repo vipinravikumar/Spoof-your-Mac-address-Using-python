@@ -1,2 +1,0 @@
-# Spoof-your-Mac-address-Using-python
-NOTE: USE THE FOLLOWING CODE FOR LEGGITIMATE REASONS ONLY
