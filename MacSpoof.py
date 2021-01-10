@@ -2,6 +2,7 @@
 #NOTE: USE THE FOLLOWING CODE FOR LEGGITIMATE REASONS ONLY
 import os
 import subprocess 
+import random
 
 def get_rand():
     return random.choice("abcdef0123456789") 
