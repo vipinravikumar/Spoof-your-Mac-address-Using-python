@@ -16,6 +16,7 @@ def new_mac():
     new_ += get_rand() + get_rand() 
     return new_
 
+print'Old_Mac_Address'
 print(os.system("ifconfig eth0 | grep ether | grep -
 oE [0-9abcdef:]{17}")) 
 subprocess.call(["sudo","ifconfig","eth0","down"]) 
@@ -23,5 +24,6 @@ new_m = new_mac()
 subprocess.call(["sudo","ifconfig","eth0","hw","ether","
 %s"%new_m]) 
 subprocess.call(["sudo","ifconfig","eth0","up"]) 
+print'New_Mac_Address'                 
 print(os.system("ifconfig eth0 | grep ether | grep -
 oE [0-9abcdef:]{17}"))
