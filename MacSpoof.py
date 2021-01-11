@@ -1,5 +1,6 @@
 # Spoof-your-Mac-address-Using-python
 #Do check out my video on yt:https://bit.ly/3smb0u6
+#This is a Linux Compatible Code so it wont work on other os
 #NOTE: USE THE FOLLOWING CODE FOR LEGGITIMATE REASONS ONLY
 import os
 import subprocess 
